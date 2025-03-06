@@ -19,3 +19,10 @@
 .spaceOne{
     width: 600px;
 }
+
+.delete-btn{
+    background-color: red;
+    font-style: italic;
+    color: white;
+    border-radius: 5px;
+}
