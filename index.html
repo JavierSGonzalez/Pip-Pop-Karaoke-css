@@ -9,30 +9,36 @@
 <body class="bgimg">
     <div class="spaceOne">
         <h1 class="text">Bienvenidos al Karaoke Pip & Pop</h1>
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ac7d183b-035e-4133-8302-bcc92a267aa7/dfi9yx4-98d8e6aa-a9e9-4477-b9f8-59ffdef1cc02.png/v1/fill/w_465,h_568,strp/pip_and_pop__bear_in_the_big_blue_house__png_2_by_ppgfanantic2000_dfi9yx4-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY4IiwicGF0aCI6IlwvZlwvYWM3ZDE4M2ItMDM1ZS00MTMzLTgzMDItYmNjOTJhMjY3YWE3XC9kZmk5eXg0LTk4ZDhlNmFhLWE5ZTktNDQ3Ny1iOWY4LTU5ZmZkZWYxY2MwMi5wbmciLCJ3aWR0aCI6Ijw9NDY1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.zcOMnFSAR7jVsS9g4Bqss4qJYbKRtnnYZjaX36BBtew" alt="">
+        <h2>P&P Karaoke</h2>
     </div>
 
     <!--Formulario para agregar canciones-->
 
-    <form id="song_form">
-        <label for="song_name">Nombre de la canción</label>
-        <input id="song_name" type="text" required>
-        <label for="artist_name">Nombre del artista</label>
-        <input id="artist_name" type="text" required>
-        <label for="url_song">Ingresa el enlace de la canción</label>
-        <input id="url_song" type="url" required>
-
-        <button type="submit">Agregar a la lista</button>
-    </form>
+    <div class="potition">
+        <form id="song_form">
+            <label for="song_name">Nombre de la canción</label>
+            <input id="song_name" type="text" required>
+            <label for="artist_name">Nombre del artista</label>
+            <input id="artist_name" type="text" required>
+            <label for="url_song">Ingresa el enlace de la canción</label>
+            <input id="url_song" type="url" required>
+    
+            <button type="submit">Agregar a la lista</button>
+        </form>
+    </div>
 
     <!--Lista de canciones-->
     <div class="space">
         <h2 class="LiRe">Lista de reproducción</h2>
     </div>
     
+    <div class="bgPL">
+        <ul id="play_list">
 
-    <ul id="play_list">
+        </ul>
+    </div>
 
-    </ul>
 </body>
 
 <script src="main.js"></script>

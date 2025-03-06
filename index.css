@@ -1,6 +1,8 @@
 .text{
     color: white;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/834/435/small_2x/beautiful-space-background.jpg);
+    display: flex;
+    justify-content: center;
 }
 
 .bgimg{
@@ -10,6 +12,7 @@
 .LiRe{
     background-image: url(https://images.stockcake.com/public/d/d/8/dd8f6e39-b33a-4604-9a6e-6a5e79ee081c_large/sunset-beach-view-stockcake.jpg);
     color: white;
+    width: 200px;
 }
 
 .space{
@@ -17,12 +20,46 @@
 }
 
 .spaceOne{
-    width: 600px;
+    left: 370px;
+    max-width: 600px;
+    position: relative;
+}
+
+.spaceOne > img{
+    width: 60px;
+    left: 800px;
+    position: absolute;
+    top: -10px;
+}
+
+.spaceOne > h2{
+    color: white;
+    font-style: italic;
+    left: 770px;
+    top: -5px;
+    position: relative;
 }
 
 .delete-btn{
     background-color: red;
     font-style: italic;
     color: white;
+    border-radius: 5px;
+}
+
+.potition > form {
+    display: grid;
+    justify-content: left;
+    background-color: #258bff;
+    width: 200px;
+}
+
+.potition > label{
+    background-color: gray;
+}
+
+.bgPL > ul{
+    background-color: #c4b5c4;
+    width: max-content;
     border-radius: 5px;
 }
