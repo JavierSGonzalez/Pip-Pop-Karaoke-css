@@ -7,6 +7,7 @@
 
 .bgimg{
     background-image: url(https://i.redd.it/nkvu0oiattfa1.png);
+    width: 140px;
 }
 
 .LiRe{
@@ -20,9 +21,13 @@
 }
 
 .spaceOne{
-    left: 370px;
+    left: 440px;
     max-width: 600px;
     position: relative;
+}
+
+.spaceOne > h1{
+    width: max-content;
 }
 
 .spaceOne > img{
@@ -35,8 +40,8 @@
 .spaceOne > h2{
     color: white;
     font-style: italic;
-    left: 770px;
-    top: -5px;
+    left: 760px;
+    top: -15px;
     position: relative;
 }
 
