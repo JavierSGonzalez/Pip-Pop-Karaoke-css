@@ -63,3 +63,9 @@
     width: max-content;
     border-radius: 5px;
 }
+
+.Phrase > img{
+    left: 800px;
+    width: 500px;
+    position: absolute;
+}
